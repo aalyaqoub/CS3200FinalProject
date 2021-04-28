@@ -62,8 +62,7 @@ const LessonEditor = () => {
                 onChange={(e) => {
                     {
                         lessonId !== 'new' &&
-                        updateCourse(lessonId.id, e.target.value) &&
-                        console.log(1);
+                        updateCourse(lessonId.id, e.target.value)
                     }
                     setLesson(lesson =>
                         ({...lesson, courseId: e.target.value}))

@@ -54,6 +54,7 @@ public class LessonOrmDao {
     lesson.setTitle(newLesson.getTitle());
     lesson.setText(newLesson.getText());
     lesson.setVideoLink(newLesson.getVideoLink());
+    lesson.setCourseLesson(courseRepository.findCourseById(newLesson.getCourseId()));
     return lessonRepository.save(lesson);
   }
 
@@ -65,7 +66,7 @@ public class LessonOrmDao {
   }
 
   @GetMapping("/api/lessons/{lessonId}/{courseId}")
-  public Integer updateOwner(
+  public Integer updateCourse(
           @PathVariable("lessonId") Integer id,
           @PathVariable("courseId") Integer courseId) {
     lessonRepository.updateCourse(id, courseId);
