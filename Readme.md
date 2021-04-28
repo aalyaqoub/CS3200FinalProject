@@ -1,9 +1,14 @@
 # TeachMe (DB Final Project)
-TeachMe is a platform for peer learning in which user who are familiar with a particular subject can create courses and people who are interested in said course can enroll in it. This allows users to learn from each others strengths.
 
 ## Group Info
 Database Design 13\
 Solo Group (Ali Alyaqoub)
+
+## Problem Statement
+At times it maybe hard to find material to learn new things as a result I made TeahMe to help address that.
+
+## Solution Statement
+TeachMe is a platform for peer learning in which user who are familiar with a particular subject can create courses and people who are interested in said course can enroll in it. This allows users to learn from each others strengths.
 
 ## UML
 ![Image of UML](https://drive.google.com/uc?export=view&id=1BToUW9NZP_wkL9Adl--j1VBRPR51ceHl)
